@@ -1,0 +1,65 @@
+#a new pcture mask
+
+<!doctype html>
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title ></title>
+
+<style type="text/css">
+<!--
+.box{ 
+  width:160px;
+  height:120px;
+  position:relative;
+  background:url(images/1.jpg) no-repeat center;
+  cursor:pointer;
+ }
+.box .bmbox{ 
+  width:160px; 
+  height:120px; 
+  background:black; 
+  opacity:0.8;
+  position:absolute; 
+  top:0px; 
+  left:0px; 
+  display:none;
+  font:12px/30px "宋体"; color:white;
+  text-align:center;
+ }
+.box:hover .bmbox{
+  width:160px; 
+  height:120px; 
+  background:black; 
+  opacity:0.5;
+  position:absolute; 
+  top:0px; 
+  left:0px; 
+  display:block;
+  font:12px/30px "宋体"; color:white;
+  text-align:center;
+ 
+ }
+ .box:hover .bmbox img{
+  position:absolute; 
+  top:50px; 
+ 
+ 
+ }
+ -->
+</style>
+</head>
+
+
+
+
+ 
+<body>
+ <div class="box">
+  <div class="bmbox"><img src="images/search.png"</div>
+ </div>
+
+
+
+</body>
+</html>
